@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>الهام 🎂  عدى اسبوع على خطوبتنا</title>
+    <title>الهام 🎁 عدى اسبوع على خطوبتنا</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
@@ -256,7 +256,6 @@
         }
 
         /* ======== BACKGROUND IMAGE (FIXED) ======== */
-        /* تأكد من وجود صورة باسم background.jpg في نفس المجلد */
         body::before {
             content: "";
             position: fixed;
@@ -1202,54 +1201,7 @@
             }
         }
 
-        /* ======== VIDEO & VOICE ======== */
-        .video-frame {
-            border-radius: 18px;
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            background: #000;
-            position: relative;
-            max-width: 340px;
-            margin: 0 auto;
-        }
-        .video-frame video {
-            width: 100%;
-            display: block;
-        }
-        .video-frame.missing {
-            aspect-ratio: 9/16;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(150deg, #3a2140, #1c0f22);
-        }
-        .video-frame.missing video {
-            display: none;
-        }
-        .video-frame.missing::after {
-            content: "🎬 الفيديو ده لسه مش مرفوع";
-            color: var(--muted);
-            font-size: 13px;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.8;
-        }
-        .video-placeholder {
-            aspect-ratio: 9/16;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            color: var(--muted);
-            font-size: 13px;
-            text-align: center;
-            padding: 20px;
-            background: linear-gradient(150deg, #3a2140, #1c0f22);
-        }
-        .video-placeholder span.ic {
-            font-size: 34px;
-        }
+        /* ======== VOICE ======== */
         .voice-note {
             text-align: center;
             font-size: 12px;
@@ -1385,9 +1337,9 @@
             <div class="avatar">
                 <img src="avatar.jpg" onerror="this.onerror=null; this.style.display='none'; this.insertAdjacentHTML('afterend','🤍');">
             </div>
-            <span class="cake-emoji">🎂</span>
+            <span class="cake-emoji">🎁</span>
             <h1>لالهام بس</h1>
-            <p>في مفاجأة حلوة قوي بمناسبة يومك.. اكتبي الباسورد عشان تشوفيها</p>
+            <p>في هدية بسيطة حلوة قوي ليكي.. اكتبي الباسورد عشان تشوفيها</p>
             <input type="password" id="password" placeholder="الباسورد" autocomplete="off" />
             <button class="unlock-btn" id="unlockBtn">افتحي المفاجأة 🎁</button>
             <div class="error-msg" id="errorMsg">الباسورد مش مظبوط.. جربي تاني يا قمر ♥</div>
@@ -1419,12 +1371,12 @@
             <div class="avatar-lg reveal-el">
                 <img src="avatar.jpg" alt="" onerror="this.onerror=null; this.style.display='none'; this.insertAdjacentHTML('afterend','🤍');" />
             </div>
-            <span class="badge reveal-el">🎂 يوم مولد أحلى بنت في الدنيا ✨</span>
-            <h1 class="name reveal-el">آية</h1>
-            <p class="subname reveal-el">🎂 عيد ميلادك</p>
+            <span class="badge reveal-el">🎁 هدية بسيطة لأحلى بنت في الدنيا ✨</span>
+            <h1 class="name reveal-el">الهام</h1>
+            <p class="subname reveal-el">🎁 هدية بسيطة ليكي</p>
             <div class="divider reveal-el">🎉</div>
 
-            <div class="bubble reveal-el">🎂 كل سنة وانتي طيبة يا قمر الدنيا</div>
+            <div class="bubble reveal-el">💛 يا قمر الدنيا</div>
             <div class="bubble reveal-el">
                 مش هعرف أعبرلك بالظبط بإيه حاسس وأنا بعمل المكان ده، بس عايز النهارده يبقى مختلف عندك شوية.
             </div>
@@ -1432,12 +1384,12 @@
                 اللي في قلبي عليكي أكبر بكتير من إني أحطه كله هنا، بس حبيت أهديكي جزء بسيط منه، وأقولك بجد وبصوت عالي: انتي أحلى وأغلى حاجة اتحطيت في طريقي في الدنيا دي كلها ❤️
             </div>
 
-            <span class="date-chip reveal-el">2025 / 5 / 16</span>
+            <span class="date-chip reveal-el">2026 / 7 / 31</span>
 
             <!-- Counter -->
             <section class="section">
-                <h2 class="section-title reveal-el">إحنا مع بعض بقالنا كل الوقت ده</h2>
-                <p class="section-sub reveal-el">من 16 مايو 2025 وأنا بعد كل ثانية بتعدي، بحبك أكتر ♥</p>
+                <h2 class="section-title reveal-el">إحنا مع بعض بقالنا أسبوع</h2>
+                <p class="section-sub reveal-el">أسبوع بس، بس حاسس إنه عمر كامل.. وبعد كل ثانية بتعدي، بحبك أكتر ♥</p>
                 <div class="counter-grid reveal-el">
                     <div class="counter-box">
                         <span class="num" id="c-days">0</span><span class="lbl">يوم</span>
@@ -1457,8 +1409,8 @@
             <!-- Letters -->
             <section class="section">
                 <span class="eyebrow reveal-el">اسمك يا حلوة</span>
-                <h2 class="section-title reveal-el">كل حرف في اسمك ليه حكاية في يومك ده</h2>
-                <p class="section-sub reveal-el">حبيت أقولهالك وانتي بتحتفلي بيوم مولدك.. من قلب لقلب ♥</p>
+                <h2 class="section-title reveal-el">كل حرف في اسمك ليه حكاية في الهدية دي</h2>
+                <p class="section-sub reveal-el">حبيت أقولهالك دلوقتي.. من قلب لقلب ♥</p>
                 <div id="lettersWrap"></div>
             </section>
 
@@ -1480,18 +1432,18 @@
 
             <!-- Flip Cards -->
             <section class="section">
-                <p class="section-sub reveal-el" style="margin-bottom:20px;">يوم من أحلى الأيام اللي عشتها في حياتك دي 🎁</p>
+                <p class="section-sub reveal-el" style="margin-bottom:20px;">أسبوع من أحلى الأيام اللي عشتها في حياتك دي 🎁</p>
                 <span class="eyebrow reveal-el">دوسي علي</span>
-                <h2 class="section-title reveal-el">دوسي على الكروت وشوفي مفاجأة يوم مولدك</h2>
-                <p class="section-sub reveal-el">كل كرت فيه كلمة صادقة من قلبي ليكي بمناسبة يومك الحلو 🎂</p>
+                <h2 class="section-title reveal-el">دوسي على الكروت وشوفي مفاجأة بسيطة</h2>
+                <p class="section-sub reveal-el">كل كرت فيه كلمة صادقة من قلبي ليكي 🎁</p>
                 <div class="flip-grid reveal-el" id="flipGrid"></div>
             </section>
 
             <!-- Message Cards -->
             <section class="section">
                 <span class="eyebrow reveal-el">رسايل من قلبي</span>
-                <h2 class="section-title reveal-el">دوسي على الكروت وشوفي مفاجأة يوم مولدك</h2>
-                <p class="section-sub reveal-el">كل كرت فيه كلمة صادقة من قلبي ليكي بمناسبة يومك الحلو 🎂</p>
+                <h2 class="section-title reveal-el">دوسي على الكروت وشوفي مفاجأة بسيطة</h2>
+                <p class="section-sub reveal-el">كل كرت فيه كلمة صادقة من قلبي ليكي 🎁</p>
                 <div id="msgCardsWrap"></div>
             </section>
 
@@ -1517,140 +1469,19 @@
 
                 <div class="cake-reveal" id="cakeReveal">
                     <p>
-                        أعدك إن كلامي مهما طال، مش هيوصل لكل اللي حاسس بيه، عارف كل تفاصيل يومك، وواقف جنبك مهما حصل. كل سنة وانتي أحلى وأغلى ما في حياتي 🎁
+                        أعدك إن كلامي مهما طال، مش هيوصل لكل اللي حاسس بيه، عارف كل تفاصيل يومك، وواقف جنبك مهما حصل. دايمًا وانتي أحلى وأغلى ما في حياتي 🎁
                     </p>
                 </div>
             </section>
 
-            <!-- Video Messages -->
-            <section class="section">
-                <span class="eyebrow reveal-el">رسايل فيديو</span>
-                <h2 class="section-title reveal-el">شوفيني بقلبي أقولهالك: كل سنة وانتي طيبة</h2>
-                <p class="section-sub reveal-el">حبيت تشوفي وشي وأنا بهنّيك بيوم مولدك بصوتي وصورتي ♥</p>
-
-                <!-- Video 1 -->
-                <div class="video-frame reveal-el" id="videoFrame1">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame1').classList.add('missing')">
-                        <source src="video-1.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ قلبي أنا ، احلى بروتة دي اكيد فكراها (كل)
-                </p>
-
-                <!-- Video 2 -->
-                <div class="video-frame reveal-el" id="videoFrame2">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame2').classList.add('missing')">
-                        <source src="video-2.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ اكيد ده عمرك ما هتنسيه دي اجمل صدفة (سنة)
-                </p>
-
-                <!-- Video 3 -->
-                <div class="video-frame reveal-el" id="videoFrame3">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame3').classList.add('missing')">
-                        <source src="video-3.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ هنبقى أجمل عروسين ي حبيبتي اجمل عروسة (وانتي)
-                </p>
-
-                <!-- Video 4 -->
-                <div class="video-frame reveal-el" id="videoFrame4">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame4').classList.add('missing')">
-                        <source src="video-4.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ دي بقى أنا بعمل كل ده عشان انتي تستاهلي يا عمري (طيبة)
-                </p>
-
-                <!-- Video 5 -->
-                <div class="video-frame reveal-el" id="videoFrame5">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame5').classList.add('missing')">
-                        <source src="video-5.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ اول عيد ميلاد ليكي معايا كان ده عارف اني معملتش زي مكنتي متخيلة بس انتي روحي ومقدرش اأعيش من غيرك (ياحبيبة)
-                </p>
-
-                <!-- Video 6 -->
-                <div class="video-frame reveal-el" id="videoFrame6">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame6').classList.add('missing')">
-                        <source src="video-6.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ أول عيد لينا مع بعض كان احلى يوم اكيد فاكره الصواريخ (قلبي)
-                </p>
-
-                <!-- Video 7 -->
-                <div class="video-frame reveal-el" id="videoFrame7">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame7').classList.add('missing')">
-                        <source src="video-7.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ كان في عيني  كلام كتير صعب يتوصف، عنيا بتشوفك بتلمع يا حياتي (وعمري)
-                </p>
-
-                <!-- Video 8 -->
-                <div class="video-frame reveal-el" id="videoFrame8">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame8').classList.add('missing')">
-                        <source src="video-8.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ مجبتش حاجه من عندي انتي حياتي وعمري فداكي بعشقك يا ايويا فاكره الدلع ده (وروحي)
-                </p>
-
-                <!-- Video 9 -->
-                <div class="video-frame reveal-el" id="videoFrame9">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame9').classList.add('missing')">
-                        <source src="video-9.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ إنت حبيبي، الفيديو ده في حتة تانيه كفاية كمية الحب اللي فيه (وضي عيوني)
-                </p>
-
-                <!-- Video 10 -->
-                <div class="video-frame reveal-el" id="videoFrame10">
-                    <video preload="metadata" controls playsinline onerror="document.getElementById('videoFrame10').classList.add('missing')">
-                        <source src="video-10.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <p class="video-caption" style="text-align:center; color:var(--muted); font-size:14px; margin:8px 0 30px;">
-                    ✨ ده عمري كله هيسوي ايه ، خليني جنبك ع طول ،دي حاجة بحاول اعبر فيها عن حبي ليكي وبرضو عمرها ما هتوفيكي حقك وقدر حبك عندي واديكي شايفة انا سبت العالم لان قلبي بقى ملكك خلاص (وحياتي كلها)
-                </p>
-            </section>
-
-            <!-- Voice Message -->
-            <section class="section">
-                <span class="eyebrow reveal-el">رسالة صوتية</span>
-                <h2 class="section-title reveal-el">اسمعي صوتي شوية يا حلوة</h2>
-                <p class="section-sub reveal-el">في كلام حبيت أقولهولك بصوتي بمناسبة يومك، مش بس بالكتابة ♥</p>
-                <div class="bubble reveal-el" style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
-                    <span id="voiceStatus">إسمعي يا نن عيني 💖💕</span>
-                    <button id="voicePlayBtn" style="width:52px;height:52px;border-radius:50%;border:none;background:linear-gradient(135deg, var(--pink), var(--purple));color:#fff;font-size:18px;cursor:pointer;flex-shrink:0;transition:all 0.3s ease;">
-                        ▶
-                    </button>
-                </div>
-                <audio id="voiceAudio" src="voice.mp3" onerror="document.getElementById('voiceStatus').textContent='❌ لم يتم رفع الملف الصوتي'"></audio>
-            </section>
-
             <!-- Closing -->
             <div class="bubble reveal-el" style="margin-top:60px;">
-                قلبي، وربنا يخليكي ليا ويفضل يضحكك طول عمرك ❤️🎂 بحبك جدًا، وكل سنة وانتي حبيبتي وأجمل حاجة في دنيتي ✨
+                قلبي، وربنا يخليكي ليا ويفضل يضحكك طول عمرك ❤️🎁 بحبك جدًا، ودايمًا وانتي حبيبتي وأجمل حاجة في دنيتي ✨
             </div>
 
             <footer class="final reveal-el">
-                <span class="cake-ic">🎂</span>
-                <p>صُممته انا لنن عيوني آية (إسمها أية وهيا آية في الجمال والحنية) حبيبك علي <br> أم يزن</p>
+                <span class="cake-ic">🎁</span>
+                <p>صُممته انا لنن عيوني الهام (اسمها الهام وهي إلهام حقيقي في حياتي) حبيبك علي <br> أم يزن</p>
             </footer>
         </main>
 
@@ -1660,8 +1491,8 @@
         <div class="music-bar">
             <button class="play-btn" id="songPlayBtn">▶</button>
             <div class="info">
-                <div class="status" id="songStatus">❤️ كان لازم أحبك</div>
-                <div class="title">💖 كان لازم أحبك</div>
+                <div class="status" id="songStatus">❤️ غار القمر</div>
+                <div class="title">💖 غار القمر</div>
                 <div class="progress-track"><div class="progress-fill" id="songProgress"></div></div>
             </div>
         </div>
@@ -1672,9 +1503,11 @@
     <script>
         // =============== DATA ===============
         const LETTERS = [
-            { letter: 'آ', text: 'آية ربنا ليا وأحلى حاجة حصلتلي.' },
-            { letter: 'ي', text: 'يا حبيبتي، وكل حاجة في حياتي.. مش مجرد قريبة مني وبس.' },
-            { letter: 'ة', text: 'تاخدي عمري كله فداكي ، ختام الكلام إنك أغلى حد عندي، وكل سنة وانتي طيبة يا حبيبتي.' }
+            { letter: 'ا', text: 'أول حرف في اسمك، وأول حاجة يوم ما دخلتي حياتي.. حسيت إن كل حاجة اتغيرت.' },
+            { letter: 'ل', text: 'لسه فاكر أول لحظة اتكلمنا فيها، وحاسس إنها كانت بداية أحلى حكاية.' },
+            { letter: 'ه', text: 'هدوء قلبي وأماني، أول ما بشوفك أو أسمع صوتك بحس إن كل حاجة تمام.' },
+            { letter: 'ا', text: 'أمان حاسس بيه لما بكون جنبك، وسند مش هلاقيه عند حد غيرك.' },
+            { letter: 'م', text: 'من كل قلبي، انتي أغلى حد عندي، وكل يوم وانتي طيبة يا حبيبتي.' }
         ];
 
         const REASONS = [
@@ -1696,11 +1529,11 @@
             { src: '7.jpg', caption: 'من أجمل اللحظات اللي بنحبها شرب عصير تمر.' },
             { src: '8.jpg', caption: 'مش مجرد ماسكة ايدي ده حب وشريك حياة.' },
             { src: '9.jpg', caption: 'ضحكتك هيا اللي مخلياني أكمل وأواجه الدنيا.' },
-            { src: '10.jpg', caption: 'كل لحظة معاكي بترسم ذكرى محفورة في قلبي، بعشقك دي قليلة يا آية انتي سندي وعوض ربنا ليا.' }
+            { src: '10.jpg', caption: 'كل لحظة معاكي بترسم ذكرى محفورة في قلبي، بعشقك دي قليلة يا الهام انتي سندي وعوض ربنا ليا.' }
         ];
 
         const FLIP_CARDS = [
-            { front: '🎂 كل سنة وانتي طيبة', back: 'سنة جديدة وانتي معايا وحبنا لبعض دايم سنة جديدة وانتي مونساني يا عمري.' },
+            { front: '💛 يا حبيبة قلبي', back: 'معاكي أسبوع بس، وحاسس إنه عمر كامل من الحب والأمان.' },
             { front: '💫 بموت فيكي', back: 'كل يوم بتضحكيني، وبتنوّري نهاري كله من غير ما تحسي بيه.' },
             { front: '🎁 يا هديتي', back: 'من أول ما شفتك وأنا فاهم إنك مختلفة عن أي حد قابلته.' },
             { front: '✨ يا روح قلبي', back: 'انتي أهم حاجة في حياتي دلوقتي، وده كلام من قلب مش مجاملة.' }
@@ -1717,7 +1550,7 @@
         }, {
             icon: '🎉',
             title: 'يا حلمي',
-            text: "أمنيتي ليكي: يارب يوم مولدك ده يبقى بداية سنة حلوة عليكي بجد جد، مليانة صحة وضحك وخير، وكل اللي قلبك بيتمناه يتحقق، وهفضل جنبك في كل حاجة يا رب، سندك وضهرك، مهما بعد الزمن ♥"
+            text: "أمنيتي ليكي: يارب الأيام الجاية دي تبقى بداية حكاية حلوة عليكي بجد جد، مليانة صحة وضحك وخير، وكل اللي قلبك بيتمناه يتحقق، وهفضل جنبك في كل حاجة يا رب، سندك وضهرك، مهما بعد الزمن ♥"
         }, {
             icon: '🎁',
             title: 'يا هديتي',
@@ -1742,7 +1575,7 @@
         const reasonsWrap = document.getElementById('reasonsWrap');
         REASONS.forEach(text => {
             const card = el('div', 'reason-card reveal-el');
-            card.innerHTML = `<span class="tag">🎂 تستاهلي</span><p>${text}</p>`;
+            card.innerHTML = `<span class="tag">🎁 تستاهلي</span><p>${text}</p>`;
             reasonsWrap.appendChild(card);
         });
 
@@ -1793,7 +1626,7 @@
         document.querySelectorAll('.reveal-el').forEach(elx => revealObserver.observe(elx));
 
         // =============== COUNTER ===============
-        const START_DATE = new Date('2025-05-16T00:00:00');
+        const START_DATE = new Date('2026-07-31T00:00:00');
 
         function updateCounter() {
             const now = new Date();
@@ -1811,7 +1644,7 @@
         setInterval(updateCounter, 1000);
 
         // =============== LOGIN GATE ===============
-        const CORRECT_PASSWORD = "Love";
+        const CORRECT_PASSWORD = "love";
         const gate = document.getElementById('gate');
         const celebration = document.getElementById('celebration');
         const passwordInput = document.getElementById('password');
@@ -1829,7 +1662,6 @@
                 launchFireworks();
                 startSong();
                 startFlyingHearts();
-                primeVideoThumbnails();
             } else {
                 errorMsg.classList.add('show');
                 passwordInput.classList.remove('shake');
@@ -1912,26 +1744,6 @@
             })();
         }
 
-        function primeVideoThumbnails() {
-            document.querySelectorAll('.video-frame video').forEach((v) => {
-                v.addEventListener('loadedmetadata', () => {
-                    try { v.currentTime = 5; } catch (e) { /* ignore */ }
-                });
-                v.addEventListener('seeked', function onFirstSeek() {
-                    v.removeEventListener('seeked', onFirstSeek);
-                    v.currentTime = 5;
-                });
-                if (v.readyState >= 1) {
-                    try { v.currentTime = 5; } catch (e) { /* ignore */ }
-                }
-                v.addEventListener('play', function onPlay() {
-                    if (v.currentTime === 5 || v.currentTime < 0.5) {
-                        v.currentTime = 0;
-                    }
-                });
-            });
-        }
-
         // =============== FLYING HEARTS ===============
         function startFlyingHearts() {
             const container = document.getElementById('flyingHeartsContainer');
@@ -1994,45 +1806,6 @@
                 setTimeout(() => piece.remove(), (duration + 0.6) * 1000);
             }
         }
-
-        // =============== VOICE MESSAGE ===============
-        const voiceAudio = document.getElementById('voiceAudio');
-        const voicePlayBtn = document.getElementById('voicePlayBtn');
-        const voiceStatus = document.getElementById('voiceStatus');
-        let voiceReady = true;
-
-        voiceAudio.addEventListener('error', () => {
-            voiceReady = false;
-            voiceStatus.textContent = '❌ لم يتم رفع الملف الصوتي';
-            voicePlayBtn.disabled = true;
-        });
-
-        voiceAudio.addEventListener('canplaythrough', () => {
-            voiceReady = true;
-            voiceStatus.textContent = 'إسمعي يا نن عيني 💖💕';
-            voicePlayBtn.disabled = false;
-        });
-
-        voicePlayBtn.addEventListener('click', () => {
-            if (!voiceReady) return;
-            if (voiceAudio.paused) {
-                songAudio.pause();
-                songPlayBtn.textContent = '▶';
-                songStatus.textContent = '⏸ متوقف مؤقتاً';
-                voiceAudio.play().catch(() => {});
-                voicePlayBtn.textContent = '⏹';
-                voiceStatus.textContent = '🎤 جاري التشغيل...';
-            } else {
-                voiceAudio.pause();
-                voicePlayBtn.textContent = '▶';
-                voiceStatus.textContent = '🎤 متوقف';
-            }
-        });
-
-        voiceAudio.addEventListener('ended', () => {
-            voicePlayBtn.textContent = '▶';
-            voiceStatus.textContent = '🎤 انتهى التشغيل';
-        });
 
         // =============== SONG PLAYER ===============
         const songAudio = document.getElementById('songAudio');
